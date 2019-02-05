@@ -4,7 +4,7 @@ if not os.path.exists("start"): os.makedirs("start")
 if not os.path.exists("generator"): os.makedirs("generator")
 
 
-with open("lista.txt","r") as oo:
+with open("list.txt","r") as oo:
     lista=oo.read().splitlines()
 
 for li in lista:
